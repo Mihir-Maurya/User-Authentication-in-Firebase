@@ -27,11 +27,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Create Account"
+                android:fontFamily="@font/arimo_semibold"
                 android:textStyle="bold"
                 android:textSize="42sp"
                 android:textColor="#1E88E5"
                 />
             <TextView
+                android:fontFamily="@font/arimo_semibold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="New User! To Sign up"
@@ -92,6 +94,7 @@
         android:layout_below="@id/password"
         >
         <TextView
+            android:fontFamily="@font/arimo_semibold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
@@ -116,6 +119,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="10dp"
+        android:fontFamily="@font/arimo_medium"
         android:gravity="center_horizontal" />
 
 

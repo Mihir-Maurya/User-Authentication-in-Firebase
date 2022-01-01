@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MYWeather">
-        <activity android:name=".NotesActivity"></activity>
+        <activity android:name=".notedetails"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" ></activity>
+        <activity android:name=".editnotesactivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"  />
+        <activity
+            android:name=".CreateNote"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".NotesActivity"  />
         <activity android:name=".ForgetPassword" />
         <activity android:name=".Signup" />
         <activity android:name=".MainActivity">

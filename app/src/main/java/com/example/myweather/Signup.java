@@ -42,6 +42,7 @@ public class Signup extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         msignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,7 +80,7 @@ public class Signup extends AppCompatActivity {
             firebaseUser.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
-                    Toast.makeText(getApplicationContext(),"Registration Succesfull",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Email is Sent For Verification",Toast.LENGTH_SHORT).show();
                     firebaseAuth.signOut();
                     finish();
                     startActivity(new Intent(Signup.this,MainActivity.class));
